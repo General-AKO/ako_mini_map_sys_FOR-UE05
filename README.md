@@ -5,96 +5,63 @@ A lightweight and performance-friendly racing minimap system for Unreal Engine, 
 
 This plugin focuses on simplicity, performance, and flexibility, making it suitable for racing games and projects where performance is critical.
 
-✨ Key Features
+✨ Key Features:
 
-Zero Scene Capture Usage
-The system does not rely on Scene Capture 2D or camera-based solutions, avoiding unnecessary GPU and CPU overhead.
+***Zero Scene Capture Usage
+-The system does not rely on Scene Capture 2D or camera-based solutions, avoiding unnecessary GPU and CPU overhead.
 
-Near-Zero Performance Cost
+***Near-Zero Performance Cost
 From practical testing, the plugin introduces almost no noticeable performance impact, even when updating elements in real time.
 
-Spline-Based Track Visualization
+***Spline-Based Track Visualization
 Uses a spline actor to define the racing track, allowing accurate and smooth path representation on the minimap.
 
-Real-Time Player Progress Tracking
+***Real-Time Player Progress Tracking
 Displays the player’s position along the track dynamically and updates smoothly during gameplay.
 
-Dynamic Opponent Display
-Supports showing multiple actors (such as AI cars) on the minimap with real-time position updates.
+***Dynamic actor Display
+Supports showing multiple actors (such as npc cars) on the minimap with real-time position updates.
 
-Single Actor Filtering
-Option to display only one specific actor instance instead of all instances (useful for focused gameplay or debugging).
+***Flexible Rotation Modes  (Fixed player with rotating map ,Map rotates with the player, Fully static map)---Choose the style that fits your game design.
 
-Flexible Rotation Modes
+***Customizable Map Appearance
 
-Fixed player with rotating map
-
-Map rotates with the player
-
-Fully static map
-Choose the style that fits your game design.
-
-Customizable Map Appearance
-
-Adjustable zoom and center behavior
-
-Optional map borders (simple or custom shapes)
-
-Adjustable transparency
-
-Optional shear/tilt effect for visual style
-
-Path Styling Options
-
-Path color
-
-Thickness
-
-Smoothness and style controls
-
-Runtime Path Update Control
-Decide whether the path is:
-
+-- Adjustable zoom and center behavior
+-- Optional map borders (simple or custom shapes)
+-- Adjustable transparency
+-- Optional shear/tilt effect for visual style
+-- Path Styling Options ( Path color , Thickness , Smoothness and style controls)
+--- Runtime Path Update Control Decide whether the path is: 
 Updated every frame
+Or 
+drawn once at the start for maximum performance
 
-Or drawn once at the start for maximum performance
-
-Beginner-Friendly Setup
+--- Beginner-Friendly Setup
 Designed to work with just a few clicks, no need to modify internal plugin files.
 
-📦 Installation
+📦 Installation:
 
-Download the plugin from this repository.
+--- Download the plugin from this repository.
+---Navigate to your Unreal Engine project folder.
+---Create a folder named Plugins if it does not already exist.
+---Extract the plugin files into the Plugins folder.
+---Open your project.
+---The plugin will appear in the Plugins window and is enabled by default.
 
-Navigate to your Unreal Engine project folder.
-
-Create a folder named Plugins if it does not already exist.
-
-Extract the plugin files into the Plugins folder.
-
-Open your project.
-
-The plugin will appear in the Plugins window and is enabled by default.
-
-⚙️ Requirements
+⚙️ Requirements:
 
 Unreal Engine 5.4 or higher
+---Versions below 5.4 are not supported and will not run the plugin.
 
-Versions below 5.4 are not supported and will not run the plugin.
+🧩 Basic Setup Overview:
 
-🧩 Basic Setup Overview
-
-Assign a Spline Actor that represents your racing track.
-
+--- Assign a Spline Actor that represents your racing track.
 Assign the Player Actor.
-
-(Optional) Customize the player indicator shape.
-
-Add the minimap widget to the viewport (commonly via the Player Controller).
-
-Add the required spline info component to the player actor.
-
-(Optional) Add opponent actors and customize their appearance on the map.
+---(Optional) Customize the player indicator shape.
+---Add the minimap widget to the viewport 
+---Add the required spline info component to the player actor.
+---(Optional) Add opponent actors and customize their appearance on the map.
+and much more........
 
 🧪 Beta Status & Known Limitations
 
@@ -102,15 +69,10 @@ Add the required spline info component to the player actor.
 
 Known Limitations:
 
-Tested mainly on Unreal Engine 5.4
-
-Higher engine versions have not been fully tested yet
-
-Some features may require further polishing
-
-Edge cases may produce non-perfect visual results
-
-Your feedback is essential to improve stability and feature completeness.
+--- Tested mainly on Unreal Engine 5.4 --- Higher engine versions have not been fully tested yet
+--- Some features may require further polishing
+--- Edge cases may produce non-perfect visual results
+--- Your feedback is essential to improve stability and feature completeness.
 
 ❌ What This Plugin Does NOT Do
 
