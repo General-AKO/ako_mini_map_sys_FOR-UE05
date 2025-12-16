@@ -3,6 +3,11 @@
 
 A lightweight and performance-friendly racing minimap system for Unreal Engine, designed to display track layouts, player progress, and opponents in real time — without using Scene Capture or heavy rendering systems.
 
+vidio youtube explanation : https://youtu.be/r6qKyMkMUEc
+
+Discord:  https://discord.gg/Be3aNNDaXn
+
+
 This plugin focuses on simplicity, performance, and flexibility, making it suitable for racing games and projects where performance is critical.
 
 ✨ Key Features:
@@ -74,35 +79,19 @@ Known Limitations:
 --- Edge cases may produce non-perfect visual results
 --- Your feedback is essential to improve stability and feature completeness.
 
-❌ What This Plugin Does NOT Do
-
-Does not use Scene Capture or camera-based minimap rendering
-
-Does not aim to be a fully realistic satellite-style minimap
-
-Does not automatically generate tracks without a spline
-
 🛠 Debug & Development Tools
 
-The plugin includes optional debug settings to:
-
-Visualize internal data
-
-Understand actor positioning
-
-Assist with troubleshooting during development
+The plugin includes optional debug settings to Assist with troubleshooting during development
 
 These tools are intended for developers and can be disabled for production.
 
 💬 Feedback & Support
 
-A dedicated Discord channel is available to:
-
-Report bugs
-
-Share suggestions
-
-Receive update notifications
+*** A dedicated Discord channel is available to:
+--- Report bugs
+--- Share suggestions
+--- Receive update notifications
+Discord link :  https://discord.gg/Be3aNNDaXn
 
 Your feedback directly influences future updates and improvements.
 
@@ -110,11 +99,13 @@ Your feedback directly influences future updates and improvements.
 
 Expanded testing on newer Unreal Engine versions
 
-Additional customization options
+--- Additional customization options
+--- Stability improvements based on user feedback
+--- Adding more ways to draw the track
+--- Designing a large map showing the entire track
+--- Expanding the plugin to include open-world games, not just racing games
+--- You can find updates on our Discord channel: https://discord.gg/WdDeH46BZv
 
-Stability improvements based on user feedback
-
-Documentation and example content improvements
 
 📄 License
 
