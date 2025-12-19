@@ -7,7 +7,6 @@ vidio youtube explanation : https://youtu.be/r6qKyMkMUEc
 
 Discord:  https://discord.gg/Be3aNNDaXn
 
-
 This plugin focuses on simplicity, performance, and flexibility, making it suitable for racing games and projects where performance is critical.
 
 ### ✨ Key Features:
