@@ -1,4 +1,4 @@
-# ako_mini_map_sys
+### ako_mini_map_sys
 🚗 Racing Minimap Plugin for Unreal Engine 5
 
 A lightweight and performance-friendly racing minimap system for Unreal Engine, designed to display track layouts, player progress, and opponents in real time — without using Scene Capture or heavy rendering systems.
@@ -10,7 +10,7 @@ Discord:  https://discord.gg/Be3aNNDaXn
 
 This plugin focuses on simplicity, performance, and flexibility, making it suitable for racing games and projects where performance is critical.
 
-✨ Key Features:
+### ✨ Key Features:
 
 ***Zero Scene Capture Usage
 -The system does not rely on Scene Capture 2D or camera-based solutions, avoiding unnecessary GPU and CPU overhead.
@@ -44,7 +44,7 @@ drawn once at the start for maximum performance
 --- Beginner-Friendly Setup
 Designed to work with just a few clicks, no need to modify internal plugin files.
 
-📦 Installation:
+### 📦 Installation:
 
 --- Download the plugin from this repository.
 ---Navigate to your Unreal Engine project folder.
@@ -53,12 +53,12 @@ Designed to work with just a few clicks, no need to modify internal plugin files
 ---Open your project.
 ---The plugin will appear in the Plugins window and is enabled by default.
 
-⚙️ Requirements:
+### ⚙️ Requirements:
 
 Unreal Engine 5.4 or higher
 ---Versions below 5.4 are not supported and will not run the plugin.
 
-🧩 Basic Setup Overview:
+### 🧩 Basic Setup Overview:
 
 --- Assign a Spline Actor that represents your racing track.
 Assign the Player Actor.
@@ -68,7 +68,7 @@ Assign the Player Actor.
 ---(Optional) Add opponent actors and customize their appearance on the map.
 and much more........
 
-🧪 Beta Status & Known Limitations
+### 🧪 Beta Status & Known Limitations
 
 ⚠️ This plugin is currently in Beta.
 
@@ -79,13 +79,13 @@ Known Limitations:
 --- Edge cases may produce non-perfect visual results
 --- Your feedback is essential to improve stability and feature completeness.
 
-🛠 Debug & Development Tools
+### 🛠 Debug & Development Tools
 
 The plugin includes optional debug settings to Assist with troubleshooting during development
 
 These tools are intended for developers and can be disabled for production.
 
-💬 Feedback & Support
+### 💬 Feedback & Support
 
 *** A dedicated Discord channel is available to:
 --- Report bugs
@@ -95,7 +95,7 @@ Discord link :  https://discord.gg/Be3aNNDaXn
 
 Your feedback directly influences future updates and improvements.
 
-📌 Roadmap (Planned)
+### 📌 Roadmap (Planned)
 
 Expanded testing on newer Unreal Engine versions
 
@@ -107,7 +107,7 @@ Expanded testing on newer Unreal Engine versions
 --- You can find updates on our Discord channel: https://discord.gg/WdDeH46BZv
 
 
-📄 License
+### 📄 License
 
 This plugin is provided for free for testing and educational purposes.
 Please review the license file in this repository for usage limitations.
